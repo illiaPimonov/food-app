@@ -1,0 +1,10 @@
+.iconWrapper {
+    position: absolute;
+    top: 17px;
+    bottom: 17px;
+    left: 20px;
+}
+
+.wrapper {
+    position: relative;
+}
