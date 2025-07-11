@@ -1,4 +1,4 @@
-const SearchSVG = () => {
+const PizzaSVG = () => {
   return (
     <img
       alt="pizza"
@@ -9,4 +9,4 @@ const SearchSVG = () => {
   );
 };
 
-export default SearchSVG;
+export default PizzaSVG;

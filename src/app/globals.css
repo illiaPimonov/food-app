@@ -12,6 +12,13 @@ body {
   font-family: var(--font-nunito), sans-serif;
 }
 
+button {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .t-lg {
     font-weight: 900;
     font-size: 24px;
