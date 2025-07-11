@@ -1,0 +1,13 @@
+.iconWrapper {
+
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logoLowerText {
+    color: rgba(123, 123, 123, 1);
+}

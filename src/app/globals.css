@@ -8,3 +8,16 @@
     --font-nunito:var(--font-nunito);
 }
 
+body {
+  font-family: var(--font-nunito), sans-serif;
+}
+
+.t-lg {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.t-md { 
+    font-weight: 400;
+    font-size: 16px;
+}

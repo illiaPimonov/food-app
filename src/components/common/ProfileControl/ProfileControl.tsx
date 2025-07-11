@@ -5,8 +5,8 @@ import styles from './profileControl.module.css'
 const ProfileControl = () => {
   return (
     <div className={styles.wrapper}>
-        <Button/>
-        <Button/>
+        <Button name='Ilya'/>
+        <Button name='Ivan'/>
     </div>
   )
 }

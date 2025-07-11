@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { FC } from 'react'
 
-const Button = () => {
+type BtnProps = {
+  name:string
+}
+
+
+const Button:FC<BtnProps> = ({name}) => {
   return (
-    <button>Button</button>
+    <button>Button {name}</button>
   )
 }
 
