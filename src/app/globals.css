@@ -19,7 +19,7 @@ button {
     align-items: center;
 }
 
-.t-lg {
+.t-xlg {
     font-weight: 900;
     font-size: 24px;
 }
@@ -27,4 +27,19 @@ button {
 .t-md { 
     font-weight: 400;
     font-size: 16px;
+}
+
+.t-lg {
+        font-weight: 800;
+        font-size: 36px;
+}
+
+.t-lg-40 {
+        font-weight: 800;
+        font-size: 40px;
+}
+
+.t-md-20 {
+    font-weight: 400;
+    font-size: 20px;
 }

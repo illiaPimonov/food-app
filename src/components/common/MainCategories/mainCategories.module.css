@@ -1,0 +1,14 @@
+.wrapper {
+    width: 1247px;
+}
+
+.mainSmWrapper {
+    display: flex;
+    gap: 232px;
+}
+
+.controlWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

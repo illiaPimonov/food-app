@@ -9,8 +9,8 @@ const Logo = () => {
                 <PizzaSVG/>
             </div>
             <div className={styles.logoTextContainer}>
-                <p className="t-lg">Next Pizza</p>
-                <p className={`${'t-md'} ${styles.logoLowerText}`}>вкусней уже некуда</p>
+                <p className={`${'t-xlg'} ${styles.upperText}`}>NEXT PIZZA</p>
+                <p className={`${'t-md'} ${styles.lowerText}`}>вкусней уже некуда</p>
             </div>
     </div>
   )

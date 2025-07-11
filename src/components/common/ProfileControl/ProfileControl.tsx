@@ -7,11 +7,11 @@ import UserSVG from '@/components/ui/Icons/UserSVG/UserSVG'
 const ProfileControl = () => {
   return (
     <div className={styles.wrapper}>
-        <Button variant='large'>
+        <Button variant='active' width={110} height={50} gap={6}>
           <UserSVG/>
           <p>Войти</p>
         </Button>
-        <Button variant='medium'>
+        <Button variant='active' width={50} height={50}>
           <CartSVG/>
         </Button>
     </div>
