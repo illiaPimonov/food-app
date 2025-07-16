@@ -2,7 +2,7 @@ const UserSVG = () => {
   return (
     <img
       alt="user"
-      src="/assets/user.svg"
+      src="/assets/images/icons/user.svg"
       width={10}
       height={12}
     />

@@ -7,7 +7,7 @@ const MainCategories = () => {
   return (
     <div className={styles.wrapper}>
         <div className={styles.controlWrapper}>
-            <p className={`${'t-lg'}`}>All pizzas</p>
+            <p className={`${'t-lg'}`}>Все пиццы</p>
             <div className={styles.mainSmWrapper}>
                 <Categories/>
                 <Sorting/>

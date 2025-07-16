@@ -1,0 +1,43 @@
+.container {
+    width: 285px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.imageWrapper {
+    max-width: 285px;
+    position: relative;
+}
+
+.textWrapper {
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.description {
+    color: rgba(177, 177, 177, 1);
+}
+
+.lowerCont {
+    display: flex;
+    width: 285px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.svgWrapper {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}

@@ -1,0 +1,8 @@
+.wrapper {
+    min-width: 955px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 958px;
+    gap: 50px;
+    margin-top: 66px;
+}

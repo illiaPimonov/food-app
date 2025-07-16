@@ -12,6 +12,10 @@ body {
   font-family: var(--font-nunito), sans-serif;
 }
 
+a {
+    all: unset;
+}
+
 button {
     all: unset;
     display: flex;
@@ -30,16 +34,46 @@ button {
 }
 
 .t-lg {
-        font-weight: 800;
-        font-size: 36px;
+    font-weight: 800;
+    font-size: 36px;
 }
 
 .t-lg-40 {
-        font-weight: 800;
-        font-size: 40px;
+    font-weight: 800;
+    font-size: 40px;
 }
 
 .t-md-20 {
     font-weight: 400;
     font-size: 20px;
+}
+
+.t-md-16 {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.t-lg-22 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.t-lg-20 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.t-lg-22 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.t-md-16 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.t-lg-16 {
+    font-weight: 700;
+    font-size: 16px;
 }

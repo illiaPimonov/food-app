@@ -1,5 +1,11 @@
 .container {
-    background-color: orangered;
     width: 244px;
     height: 835px;
+    margin-top: 36px;
+    position: relative;
+}
+
+.filterBtn {
+    position: absolute;
+    bottom: 0;
 }

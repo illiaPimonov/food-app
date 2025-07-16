@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Диабло",
+    "description": "Острая чоризо, острый перец халапеньо, соус барбекю, митболы, томаты, сладкий перец, красный лук, моцарелла",
+    "price": 449,
+    "image": "/assets/images/pizzas/diab.png",
+    "customizable": false
+  },
+  {
+    "id": 2,
+    "title": "Чизбургер-пицца",
+    "description": "Мясной соус болоньезе, соус бургер, соленые огурчики, томаты, красный лук, моцарелла",
+    "price": 399,
+    "image": "/assets/images/pizzas/cheese-pizza.png",
+    "customizable": true
+  },
+  {
+    "id": 3,
+    "title": "Диабло",
+    "description": "Острая чоризо, острый перец халапеньо, соус барбекю, митболы, томаты, сладкий перец, красный лук, моцарелла",
+    "price": 449,
+    "image": "/assets/images/pizzas/diab.png",
+    "customizable": false
+  },
+  {
+    "id": 4,
+    "title": "Диабло",
+    "description": "Острая чоризо, острый перец халапеньо, соус барбекю, митболы, томаты, сладкий перец, красный лук, моцарелла",
+    "price": 449,
+    "image": "/assets/images/pizzas/diab.png",
+    "customizable": false
+  },
+    {
+    "id": 5,
+    "title": "Чизбургер-пицца",
+    "description": "Мясной соус болоньезе, соус бургер, соленые огурчики, томаты, красный лук, моцарелла",
+    "price": 399,
+    "image": "/assets/images/pizzas/cheese-pizza.png",
+    "customizable": true
+  },
+    {
+    "id": 6,
+    "title": "Диабло",
+    "description": "Острая чоризо, острый перец халапеньо, соус барбекю, митболы, томаты, сладкий перец, красный лук, моцарелла",
+    "price": 449,
+    "image": "/assets/images/pizzas/diab.png",
+    "customizable": false
+  }
+]

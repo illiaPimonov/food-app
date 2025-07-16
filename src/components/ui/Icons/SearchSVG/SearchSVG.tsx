@@ -2,7 +2,7 @@ const SearchSVG = () => {
   return (
     <img
       alt="search"
-      src="/assets/search.svg"
+      src="/assets/images/icons/search.svg"
       width={16}
       height={16}
     />

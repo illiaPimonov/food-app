@@ -2,7 +2,7 @@ import React, { FC, ReactNode } from 'react'
 import styles from './button.module.css'
 
 type BtnProps = {
-  variant:'active' | 'classic' | 'static'
+  variant:'active' | 'classic' | 'static' | 'card' | 'inactive'
   height: number
   width:number
   children?: ReactNode

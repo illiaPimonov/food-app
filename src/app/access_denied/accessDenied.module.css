@@ -1,0 +1,23 @@
+.wrapper {
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textCont {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.lowerText {
+    color: rgba(153, 153, 153, 1);
+    max-width: 445px;
+}
+
+.btnCont {
+    display: flex;
+    gap: 20px;
+}

@@ -3,6 +3,7 @@ import Button from '../../ui/Button/Button'
 import styles from './profileControl.module.css'
 import CartSVG from '@/components/ui/Icons/CartSVG/CartSVG'
 import UserSVG from '@/components/ui/Icons/UserSVG/UserSVG'
+import Link from 'next/link'
 
 const ProfileControl = () => {
   return (
@@ -11,9 +12,11 @@ const ProfileControl = () => {
           <UserSVG/>
           <p>Войти</p>
         </Button>
-        <Button variant='active' width={50} height={50}>
-          <CartSVG/>
-        </Button>
+        <Link href={'/cart'}> 
+          <Button variant='active' width={50} height={50}>
+            <CartSVG/>
+          </Button>
+        </Link>
     </div>
   )
 }

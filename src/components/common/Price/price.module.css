@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgba(246, 246, 246, 1);
+    border-bottom: 1px solid rgba(246, 246, 246, 1);
+    box-sizing: border-box;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    gap: 15px;
+}
+
+.container {
+    display: flex;
+    gap: 15px;
+}

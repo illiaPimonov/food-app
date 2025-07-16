@@ -4,6 +4,7 @@ import styles from './404.module.css';
 import Image from 'next/image';
 import Button from '@/components/ui/Button/Button';
 import ArrowSVG from '@/components/ui/Icons/ArrowSVG/ArrowSVG';
+import Link from 'next/link';
 
 const Page = () => {
   return (
@@ -18,7 +19,7 @@ const Page = () => {
           <div className={styles.btnCont}>
             <Button variant={'active'} height={50} width={158}>
               <ArrowSVG/>
-              <p>На главную</p>
+              <Link href={'/'}>На главную</Link>
             </Button>
             <Button variant={'active'} height={50} width={130}>Обновить</Button>
           </div>

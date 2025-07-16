@@ -8,7 +8,7 @@ const Search = () => {
             <div className={styles.iconWrapper}>
                 <SearchSVG/>
             </div>
-        <Input/>
+        <Input variant={'lg'} placeholder='Поиск пиццы...' type='string'/>
     </div>
   )
 }

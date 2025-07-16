@@ -6,7 +6,7 @@ const Sorting = () => {
   return (
     <div className={styles.container}>
         <SortSVG/>
-        <p>Sort: rating</p>
+        <p>Сортировка: рейтингу</p>
         </div>
   )
 }

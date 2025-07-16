@@ -2,7 +2,7 @@ const ArrowSVG = () => {
   return (
     <img
       alt="cart"
-      src="/assets/arrow.svg"
+      src="/assets/images/icons/arrow.svg"
       width={14}
       height={12}
     />

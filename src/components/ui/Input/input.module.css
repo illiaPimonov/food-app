@@ -1,13 +1,23 @@
 .input {
     all: unset;
     box-sizing: border-box;
-    background-color: rgba(249, 249, 249, 1);
     border-radius: 16px;
-    padding: 14px 0 14px 48px;
     font-family: var(--font-nunito), sans-serif;
 }
 
 .lg {
     min-width: 764px;
     height: 50px;
+    background-color: rgba(249, 249, 249, 1);
+    padding: 14px 0 14px 48px;
+}
+
+.s {
+    width: 90px;
+    height: 40px;
+    border: 1px solid rgba(240, 240, 240, 1);
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }

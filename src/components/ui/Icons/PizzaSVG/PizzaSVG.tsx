@@ -2,7 +2,7 @@ const PizzaSVG = () => {
   return (
     <img
       alt="pizza"
-      src="/assets/pizza.svg"
+      src="/assets/images/icons/pizza.svg"
       width={35}
       height={35}
     />

@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { FC } from 'react'
 import styles from './input.module.css'
 
-const Input = () => {
+type InputProps = {
+  variant: 's' | 'lg'
+  placeholder?: string
+  type:string
+}
+
+const Input:FC<InputProps> = ({variant, placeholder, type}) => {
   return (
-    <input type='text' placeholder='Search pizza...' className={`${styles.input} ${styles.lg}`}/>
+    <input type={type} placeholder={placeholder} className={`${styles.input} ${styles[variant]}`}/>
   )
 }
 
