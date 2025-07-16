@@ -1,8 +1,10 @@
 'use client'
 
-import React, { useEffect, useState } from 'react'
+import React, { lazy, Suspense, useEffect, useState } from 'react'
 import styles from './products.module.css'
-import ProductCard from '../ProductCard/ProductCard'
+import Loading from './Loading'
+
+const ProductCard = lazy(() => import('../ProductCard/ProductCard'))
 
 interface Product {
   id: number
@@ -33,7 +35,9 @@ const Products = () => {
   return (
     <div className={styles.wrapper}>
       {products.map(product => (
-        <ProductCard key={product.id} product={product} />
+        <Suspense key={product.id} fallback={<Loading />}>
+          <ProductCard product={product} />
+        </Suspense>
       ))}
     </div>
   )

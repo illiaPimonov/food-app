@@ -1,0 +1,75 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 285px;
+    height: 430px;
+    gap: 15px;
+}
+
+.imgWrapper {
+    background-color: rgba(253, 253, 253, 1);
+    border-radius: 15px;
+    width: 285px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgFrame {
+    border-radius: 50%;
+    background-color: rgba(245, 245, 245, 1);
+    width: 215px;
+    height: 215px;
+}
+
+.headingFrame {
+    width: 257px;
+    height: 30px;
+    background-color: rgba(249, 249, 249, 1);
+    border-radius: 10px;
+}
+
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.textBar {
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.textBar:nth-child(1) {
+    width: 285px;
+}
+
+.textBar:nth-child(2) {
+    width: 270px;
+}
+
+.textBar:nth-child(3) {
+    width: 100px;
+}
+
+.btnWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnLeft {
+    height: 30px;
+    width: 85px;
+    background-color: rgba(249, 249, 249, 1);
+    border-radius: 10px;
+}
+
+.btnRight {
+    width: 125px;
+    height: 42px;
+    background-color: rgba(249, 249, 249, 1);
+    border-radius: 15px;
+}

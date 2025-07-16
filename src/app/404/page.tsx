@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Button from '@/components/ui/Button/Button';
 import ArrowSVG from '@/components/ui/Icons/ArrowSVG/ArrowSVG';
 import Link from 'next/link';
+import Loading from '@/components/common/Products/Loading';
 
 const Page = () => {
   return (
