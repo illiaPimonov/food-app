@@ -1,3 +1,7 @@
+.wrapper {
+    position: relative;
+}
+
 .input {
     all: unset;
     box-sizing: border-box;
@@ -20,4 +24,15 @@
     padding-left: 15px;
     padding-bottom: 10px;
     padding-top: 10px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
 }

@@ -1,0 +1,38 @@
+.container {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+
+.checkbox {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    width: 24px;
+    height: 24px;
+    background-color: rgba(241, 241, 241, 1);
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+.checkbox:checked + .checkmark {
+    background-color: rgba(254, 95, 0, 1);
+}
+
+.icon {
+  width: 11px;
+  height: 9px;
+  color: rgba(241, 241, 241, 1);
+  transition: color 0.2s ease;
+}
+
+.checkbox:checked + .checkmark .icon {
+  color: white;
+}

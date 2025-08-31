@@ -8,7 +8,7 @@ import CustomizeSVG from "@/components/ui/Icons/CustomizeSVG/CustomizeSVG";
 import PlusSVG from "@/components/ui/Icons/PlusSVG/PlusSVG";
 import OptionalSVG from "@/components/ui/Icons/OptionalSVG/OptionalSVG";
 
-interface Product {
+type Product = {
   id: number;
   title: string;
   description: string;

@@ -7,12 +7,13 @@ type BtnProps = {
   width:number
   children?: ReactNode
   gap?:number
+  handlerFunction?: () => void
 }
 
 
-const Button:FC<BtnProps> = ({variant, width, height, gap, children}) => {
+const Button:FC<BtnProps> = ({variant, width, height, gap, children, handlerFunction}) => {
   return (
-    <button className={styles[variant]} style={{
+    <button className={styles[variant]} onClick={handlerFunction} style={{
         width: `${width}px`,
         height: `${height}px`,
         gap: `${gap}px`,

@@ -1,34 +1,17 @@
 import React from 'react'
 import styles from './ingredients.module.css'
+import Checkbox from '@/components/ui/Checkbox/Checkbox'
 
 const Ingredients = () => {
   return (
     <div className={styles.wrapper}>
         <label htmlFor='' className={`t-lg-16`}>Ингредиенты:</label>
-        <div>
-            <input type="checkbox" />
-            <label htmlFor="">Сырный соус</label>
-        </div>
-        <div>
-            <input type="checkbox" />
-            <label htmlFor="">Моцарелла</label>
-        </div>
-        <div>
-            <input type="checkbox" />
-            <label htmlFor="">Чеснок</label>
-        </div>
-        <div>
-            <input type="checkbox" />
-            <label htmlFor="">Солённые огурчики</label>
-        </div>
-        <div>
-            <input type="checkbox" />
-            <label htmlFor="">Красный лук</label>
-        </div>
-        <div>
-            <input type="checkbox" />
-            <label htmlFor="">Томаты</label>
-        </div>
+        <Checkbox content={'Сырный соус'}/>
+        <Checkbox content={'Моцарелла'}/>
+        <Checkbox content={'Чеснок'}/>
+        <Checkbox content={'Солённые огурчики'}/>
+        <Checkbox content={'Красный лук'}/>
+        <Checkbox content={'Томаты'}/>
         <p>+ Показать всё</p>
     </div>
   )

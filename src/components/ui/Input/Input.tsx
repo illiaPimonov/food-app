@@ -5,11 +5,15 @@ type InputProps = {
   variant: 's' | 'lg'
   placeholder?: string
   type:string
+  icon?: React.ReactNode
 }
 
-const Input:FC<InputProps> = ({variant, placeholder, type}) => {
+const Input:FC<InputProps> = ({variant, placeholder, type, icon}) => {
   return (
-    <input type={type} placeholder={placeholder} className={`${styles.input} ${styles[variant]}`}/>
+    <label htmlFor="" className={styles.wrapper}>
+      <input type={type} placeholder={placeholder} className={`${styles.input} ${styles[variant]}`}/>
+      {icon && <span className={styles.icon}>{icon}</span>}
+    </label>
   )
 }
 

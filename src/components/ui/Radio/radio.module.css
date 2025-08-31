@@ -1,49 +1,49 @@
 .customRadio {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  margin-bottom: 8px;
-  position: relative;
-  padding-left: 33px;
-  user-select: none;
-  font-size: 16px;
-  gap: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 33px;
+    user-select: none;
+    font-size: 16px;
+    gap: 10px;
 }
 
 .customRadio input[type="radio"] {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
 }
 
 .radioMark {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 24px;
-  width: 24px;
-  background-color:rgba(241, 241, 241, 1);
-  border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 24px;
+    width: 24px;
+    background-color: rgba(241, 241, 241, 1);
+    border-radius: 50%;
 }
 
 .customRadio input:checked ~ .radioMark {
-  border-color: rgba(254, 95, 0, 1);
-  background-color: rgba(254, 95, 0, 1);
+    border-color: rgba(254, 95, 0, 1);
+    background-color: rgba(254, 95, 0, 1);
 }
 
 .radioMark::after {
-  content: "";
-  position: absolute;
-  display: none;
-  top: 7px;
-  left: 7px;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: white;
+    content: "";
+    position: absolute;
+    display: none;
+    top: 7px;
+    left: 7px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
 }
 
 .customRadio input:checked ~ .radioMark::after {
-  display: block;
+    display: block;
 }

@@ -1,14 +1,17 @@
+"use client"
+
 import React from 'react'
 import Button from '../../ui/Button/Button'
 import styles from './profileControl.module.css'
 import CartSVG from '@/components/ui/Icons/CartSVG/CartSVG'
 import UserSVG from '@/components/ui/Icons/UserSVG/UserSVG'
 import Link from 'next/link'
+import LogIn from '@/handlers/LogIn'
 
 const ProfileControl = () => {
   return (
     <div className={styles.wrapper}>
-        <Button variant='active' width={110} height={50} gap={6}>
+        <Button variant='active' width={110} height={50} gap={6} handlerFunction={LogIn}>
           <UserSVG/>
           <p>Войти</p>
         </Button>
